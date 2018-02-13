@@ -94,6 +94,10 @@ hr {
     background-image: linear-gradient(to left, #fff, royalblue, #fff);
 } 
 
+input[type="text"]{
+    font-size: 16px;
+}
+
 /* td {
     box-shadow: 2px 2px 4px #3F3F3F;
     padding: 5px;
@@ -742,6 +746,14 @@ iframe {
 
 @media (max-width: 800px){
 
+    h1{
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
     p {
         font-size: 16px;
     }
@@ -847,6 +859,10 @@ iframe {
         padding: 5px;
         font-size: 16px;
     }
+
+    col1 {
+        flex-basis: initial;
+    }
     
 }
 
@@ -865,9 +881,9 @@ iframe {
     }
 
     /* Tamaño del mapa */
-    /* iframe{
-        width: 400px;
-    } */
+    iframe{
+        width: 100%;
+    }
 
     /* Tamaño formulario */
     form {
