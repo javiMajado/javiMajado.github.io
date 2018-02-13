@@ -94,9 +94,10 @@ hr {
     background-image: linear-gradient(to left, #fff, royalblue, #fff);
 } 
 
-td {
+/* td {
     box-shadow: 2px 2px 4px #3F3F3F;
-}
+    padding: 5px;
+} */
 
 /* Animaciones */
 @keyframes intermitente {
