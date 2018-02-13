@@ -484,10 +484,11 @@ footer a:hover {
     
 }
 
+/* Estilo rejilla fotos/detalle */
 .grid2 {
     display: grid;
-    grid-template-columns: repeat(2, 400px); 
-    grid-template-rows: repeat(2, 300px);
+    grid-template-columns: repeat(2, 600px); 
+    grid-template-rows: repeat(2, 400px);
     grid-gap: 80px;
     justify-content: center;
     align-items: center;
@@ -496,20 +497,20 @@ footer a:hover {
 }
 
 .card2 {
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     box-shadow: 2px 2px 4px grey;
 }
 
 .imagen2 {
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     overflow: hidden;
 }
 
 .imagen2 img {
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
 } 
 
 .flexExtras {
@@ -637,7 +638,48 @@ iframe {
 
 }
 
+@media (max-width : 1320px){
+
+    header nav ul li {
+        padding: 20px;
+    }
+
+    header nav ul li a{
+        font-size: 20px;
+    }
+
+    /* Estilo rejilla fotos/detalle */
+    .grid2 {
+        grid-template-columns: repeat(2, 500px); 
+        grid-template-rows: repeat(2, 300px);
+        grid-gap: 40px;
+        max-width: 100%;
+    }
+
+    .card2 {
+        width: 500px;
+        height: 300px;
+        box-shadow: 2px 2px 4px grey;
+    }
+
+    .imagen2 {
+        width: 500px;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .imagen2 img {
+        width: 500px;
+        height: 300px;
+    } 
+}
+
 @media (max-width : 1070px) {
+
+    header nav ul li {
+        padding: 10px;
+    }
+
     header nav ul li a{
         font-size: 18px;
     }
@@ -646,6 +688,29 @@ iframe {
         width: 280px;
     }
 
+    /* Estilo rejilla fotos/detalle */
+    .grid2 {
+        grid-template-columns: repeat(1, 500px); 
+        grid-template-rows: repeat(2, 300px);
+        grid-gap: 60px;
+    }
+
+    .card2 {
+        width: 500px;
+        height: 300px;
+        box-shadow: 2px 2px 4px grey;
+    }
+
+    .imagen2 {
+        width: 500px;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .imagen2 img {
+        width: 500px;
+        height: 300px;
+    } 
 }
 
 @media (max-width : 900px) {
@@ -673,13 +738,6 @@ iframe {
     }
 
 }
-
-/* @media (min-width : 800px) {
-    footer .izda, footer .centro, footer .dcha {
-        flex-basis: 300px;
-    }
-
-} */
 
 @media (max-width: 800px){
 
@@ -718,6 +776,30 @@ iframe {
     .separada {
         margin-top: 30px;
     }
+
+    /* Redimensionar tamaño del grid */
+    .grid2 {
+        grid-template-columns: repeat(1, 350px); 
+        grid-template-rows: repeat(2, 250px);
+        grid-gap: 60px;
+    }
+
+    .card2 {
+        width: 350px;
+        height: 250px;
+        box-shadow: 2px 2px 4px grey;
+    }
+
+    .imagen2 {
+        width: 350px;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .imagen2 img {
+        width: 350px;
+        height: 250px;
+    } 
     
 }
 
@@ -759,10 +841,11 @@ iframe {
         margin-top: 10px;
     }
 
-    /* Tamaño del mapa */
-    /* iframe{
-        width: 500px;
-    } */
+    /* Tamaño de la botonera de paginacion */
+    .paginacion button {
+        padding: 5px;
+        font-size: 16px;
+    }
     
 }
 
@@ -853,19 +936,10 @@ iframe {
         margin: 5px 5px 20px 5px;
     }
 
-     /* Tamaño del mapa */
-     /* iframe{
-        width: 300px;
-    } */
-
     /* Tamaño imagen grid */
     .grid2 {
         grid-template-rows: repeat(1, 200px); 
         grid-template-columns: repeat(1, 300px);
-        grid-gap: 40px;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
     
     }
 
@@ -915,4 +989,27 @@ iframe {
         height: 200px;
     } 
 
+     /* Redimensionar tamaño del grid */
+     .grid2 {
+        grid-template-columns: repeat(1, 250px); 
+        grid-template-rows: repeat(2, 150px);
+        grid-gap: 60px;
+    }
+
+    .card2 {
+        width: 250px;
+        height: 150px;
+        box-shadow: 2px 2px 4px grey;
+    }
+
+    .imagen2 {
+        width: 250px;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    .imagen2 img {
+        width: 250px;
+        height: 150px;
+    } 
 }
