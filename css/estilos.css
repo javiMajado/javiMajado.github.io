@@ -71,6 +71,10 @@ ul li {
     color: white;
 }
 
+.gold {
+    color: goldenrod;
+}
+
 .justify {
     line-height: 1.5em;
     text-align: justify;
@@ -525,7 +529,8 @@ footer a:hover {
 }
 
 .prueba {
-    width: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .tabla {
