@@ -918,6 +918,9 @@ iframe {
         width: 90%;
     }
 
+    .bread {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 450px){
@@ -932,7 +935,7 @@ iframe {
     }
 
     h1{
-        font-size: 22px;
+        font-size: 24px;
     }
 
     h3{
