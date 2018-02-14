@@ -466,6 +466,16 @@ footer a:hover {
     border: 1px solid rgba(50, 50, 182, 0.589);
 }
 
+.paginacion .actual {
+    border: 1px solid rgba(50, 50, 182, 0.589);
+    background-color: white;
+    pointer-events: none;
+}
+
+.paginacion .actual a{
+    color: royalblue;
+}
+
 /* Estilos detalle compra */
 .detalle {
     display: flex;
@@ -528,9 +538,16 @@ footer a:hover {
     justify-content: center;
 }
 
-.prueba {
+.flexExtremos {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star {
+    font-size: 16px;
+    margin-left: 54px;
 }
 
 .tabla {
