@@ -117,6 +117,7 @@ input[type="text"]{
 
 /* Cabecera con logo y barra navegacion */
 header {
+    background-color: rgba(255, 255, 255, 0.322);
     position: absolute;
     top: 0;
     display: flex;
