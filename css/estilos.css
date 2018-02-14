@@ -926,6 +926,10 @@ iframe {
 
 @media (max-width: 450px){
 
+    header {
+        height: 100px;
+    }
+
     /* Se disminuye el tamaño de letra general de la web */
     body {
         font-size: 18px;
