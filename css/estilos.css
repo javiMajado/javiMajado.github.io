@@ -296,15 +296,15 @@ header.contraste nav ul li a:hover{
     position: relative;
     left: -100%;
     transition: all 2000ms ease;
-    /* opacity: 0; */
-    visibility: hidden;
+    opacity: 0;
+    /* visibility: hidden; */
     z-index: 0;
     
 }
 
 .links.visible {
-    visibility: visible;
-    /* opacity: 1; */
+    /* visibility: visible; */
+    opacity: 1;
 }
 
 .boton {
