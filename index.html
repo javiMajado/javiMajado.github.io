@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="./css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-
+    <!-- JQuery     -->
+    <script src="./js/lib/jquery-3.3.1.min.js"></script>
+    <script src="./js/main.js"></script>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -31,9 +33,26 @@
 <body>
     <!-- Cabecera -->
     <header>
+        <!-- Menu Hamburguesa -->
         <p class="burguer">
-            <i class="fas fa-bars"></i>
+            <i id="hamburguesa" class="fas fa-bars"></i>
         </p>
+        <div class="menu-plegable">
+            <div class="columna-menu">
+                <div>
+                    <p>Inmohábitat</p>
+                    <a href="/" class="activo">Inicio</a>
+                    <a href="compras.html">Compra</a>
+                    <a href="alquiler.html">Alquiler</a>
+                    <a href="contacto.html">Contacto</a>
+                </div>
+                <div class="col100 minifooter">
+                    <p>&copy; 1990 INMOHABITAT S.A.</p>
+                </div>
+            </div>          
+        </div>
+
+        <!-- Logo -->
         <a href="/" class="logo">
             <img src="./img/logo.png" alt="logo">
         </a>
@@ -59,7 +78,7 @@
 
     <!-- Seccion de introducción -->
     <div class="fila" id="primera">
-        <div class="col1 espaciado">
+        <div class="col1 espaciado margen-superior">
             <h1>¿Quienes somos?</h1>
             <p> Inmohábitat,
                 marca premium que cuenta cerca de 700 oficinas en más de 30 países y en 4 continentes 
@@ -82,12 +101,12 @@
                 para sus clientes privados y corporativos. 
                 La competencia, la exclusividad y la pasión son los valores de nuestra marca.
             </p>
-            <hr>
+            <hr id="animate">
         </div>
     </div>
 
     <!-- Seccion de links -->
-    <div class="fila">
+    <div class="fila links">
         <div class="col1 columna">
             <img class="imagen" src="./img/icono-venta.png" alt="compra">
             <a href="compras.html" class="boton">Ir a Ventas</a>
