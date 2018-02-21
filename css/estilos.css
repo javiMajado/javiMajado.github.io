@@ -186,6 +186,15 @@ header.contraste nav ul li a:hover{
     align-items: flex-start;
 }
 
+.menu-plegable div.linea {
+    /* width: 100%; */
+    display: inline;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: 20px;
+    color: #CC6600;
+}
+
 .menu-plegable div p{
     font-size: 16px;
     text-align: center;
@@ -203,7 +212,7 @@ header.contraste nav ul li a:hover{
     width: 100%;
 }
 
-.menu-plegable div a:hover{
+.menu-plegable div.linea:hover{
     background-color: rgba(204, 102, 0, 0.514);
 
 }
