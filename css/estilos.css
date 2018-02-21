@@ -295,7 +295,7 @@ header.contraste nav ul li a:hover{
     width: 100%;
     position: relative;
     left: -100%;
-    transition: all 2000ms ease;
+    transition: all 1500ms;
     opacity: 0;
     /* visibility: hidden; */
     z-index: 0;
